@@ -26,6 +26,8 @@ function makeModal() {
   function byeBye() {
     mod.style.display = "none";
   }
+
+  // var close = document.createElement("div");
 }
 
 function start() {
