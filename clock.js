@@ -1,6 +1,10 @@
 var showtime = document.createElement('div');
 showtime.style.height = "200px"
-showtime.style.width = "200px"
+showtime.style.textAlign = "center"
+showtime.style.width = "65%"
+showtime.style.marginLeft = "20%"
+showtime.style.marginTop = "200px"
+showtime.style.border = "5px solid white"
 
 document.body.appendChild(showtime)
 
@@ -34,15 +38,11 @@ function timeShock() {
        hours = "0" + hours;
 
     }
-
-    // console.log(hours + ":" + minutes + ":" + seconds);
-
-
-    // gets back color
     document.body.style.backgroundColor = '#' + hours + minutes + seconds
 
   var displaytime = hours + ":" + minutes + ":" + seconds
   showtime.innerHTML = displaytime
+  showtime.style.fontSize = "9em"
 
   // showtime.innerHTML = hours + minutes + seconds
 
