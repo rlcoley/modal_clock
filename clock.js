@@ -3,7 +3,7 @@ showtime.style.height = "200px"
 showtime.style.textAlign = "center"
 showtime.style.width = "65%"
 showtime.style.marginLeft = "20%"
-showtime.style.marginTop = "200px"
+showtime.style.marginTop = "20%"
 showtime.style.border = "5px solid white"
 
 document.body.appendChild(showtime)

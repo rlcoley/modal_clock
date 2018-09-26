@@ -1,5 +1,7 @@
 function makeModal() {
   var mod = document.createElement('div');
+  mod.style.marginTop = "10%"
+  mod.style.marginLeft = "35%"
   mod.style.width = "400px"
   mod.style.height = "400px"
   mod.style.backgroundColor = "lightgrey"
